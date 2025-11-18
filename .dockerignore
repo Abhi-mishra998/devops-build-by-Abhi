@@ -1,0 +1,80 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage
+.nyc_output
+
+# Production
+dist
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editors
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Documentation
+README.md
+docs
+*.md
+
+# Scripts
+scripts
+
+# Monitoring
+monitoring
+
+# Jenkins
+jenkins
+
+# Misc
+.dockerignore
+docker-compose*.yml
+Dockerfile*
+LICENSE
+.editorconfig
+.eslintrc*
+.prettierrc*
+
+# Logs
+logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp
+temp
+*.tmp
+*.bak
+*.swp
+
+# Build artifacts
+*.tar.gz
+*.zip

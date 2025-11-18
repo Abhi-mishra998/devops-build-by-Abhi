@@ -1,0 +1,52 @@
+# Jenkins Required Plugins
+# Install these plugins for the CI/CD pipeline to work
+
+# Version Control
+git:latest
+github:latest
+github-branch-source:latest
+
+# Docker Support
+docker-workflow:latest
+docker-plugin:latest
+docker-commons:latest
+
+# AWS Integration
+aws-credentials:latest
+aws-java-sdk:latest
+
+# Pipeline Support
+workflow-aggregator:latest
+pipeline-stage-view:latest
+pipeline-graph-analysis:latest
+
+# Credentials Management
+credentials:latest
+credentials-binding:latest
+plain-credentials:latest
+ssh-credentials:latest
+ssh-agent:latest
+
+# Build Tools
+timestamper:latest
+ws-cleanup:latest
+build-timeout:latest
+
+# Notifications (Optional)
+email-ext:latest
+slack:latest
+mailer:latest
+
+# Utility Plugins
+ansicolor:latest
+copyartifact:latest
+rebuild:latest
+parameterized-trigger:latest
+
+# Security
+matrix-auth:latest
+role-strategy:latest
+
+# UI Improvements
+blueocean:latest
+dashboard-view:latest
