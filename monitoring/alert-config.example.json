@@ -1,0 +1,28 @@
+{
+  "notifications": {
+    "email": {
+      "enabled": true,
+      "smtpHost": "smtp.gmail.com",
+      "smtpPort": 587,
+      "smtpSecure": "TLS",
+      "smtpUsername": "your-email@gmail.com",
+      "smtpPassword": "your-app-password",
+      "fromEmail": "your-email@gmail.com",
+      "toEmail": "recipient@example.com"
+    },
+    "slack": {
+      "enabled": false,
+      "webhookUrl": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+    },
+    "discord": {
+      "enabled": false,
+      "webhookUrl": "https://discord.com/api/webhooks/YOUR/WEBHOOK"
+    }
+  },
+  "monitor": {
+    "url": "http://YOUR_EC2_PUBLIC_IP",
+    "interval": 60,
+    "timeout": 30,
+    "retries": 3
+  }
+}
