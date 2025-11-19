@@ -20,7 +20,7 @@
     }
   },
   "monitor": {
-    "url": "http://YOUR_EC2_PUBLIC_IP",
+    "url": "http://65.2.79.35",
     "interval": 60,
     "timeout": 30,
     "retries": 3

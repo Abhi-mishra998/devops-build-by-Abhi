@@ -22,18 +22,18 @@ cd monitoring
 
 # Pull latest image
 echo "[INFO] Pulling Uptime Kuma image..."
-docker-compose pull
+docker compose pull
 
 # Start monitoring
 echo "[INFO] Starting Uptime Kuma..."
-docker-compose up -d
+docker compose up -d
 
 # Wait for startup
 echo "[INFO] Waiting for startup..."
 sleep 10
 
 # Check if running
-if docker-compose ps | grep -q "Up"; then
+if docker compose ps | grep -q "Up"; then
     echo "[SUCCESS] Monitoring system is running"
     echo ""
     echo "Access dashboard: http://localhost:3001"
@@ -46,6 +46,6 @@ if docker-compose ps | grep -q "Up"; then
     echo ""
 else
     echo "[ERROR] Failed to start monitoring"
-    docker-compose logs
+    docker compose logs
     exit 1
 fi
