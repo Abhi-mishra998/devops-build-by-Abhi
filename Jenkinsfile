@@ -274,7 +274,7 @@ ENDSSH
                 retry(3) {
                     script {
                         def response = sh(
-                            script: "curl -s -o /dev/null -w '%{http_code}' http://3.110.178.40",
+                            script: "curl -s -o /dev/null -w '%{http_code}' http://65.2.79.35",
                             returnStdout: true
                         ).trim()
 
@@ -289,7 +289,7 @@ ENDSSH
                 // Get response time
                 script {
                     env.RESPONSE_TIME = sh(
-                        script: "curl -s -o /dev/null -w '%{time_total}' http://3.110.178.40",
+                        script: "curl -s -o /dev/null -w '%{time_total}' http://65.2.79.35",
                         returnStdout: true
                     ).trim()
 
